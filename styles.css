@@ -1,11 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     margin: 0;
 }
 
-nav{
-    
-
-}
 
 nav ul {
    list-style-type: none;
@@ -23,4 +23,27 @@ nav ul li a {
     text-decoration: none;
     color: black;
 }
+
+nav ul li a:hover{
+    background-color: rgb(181, 217, 247);
+    border-radius: 20px;
+}
+
+
+nav ul button.first-btn {
+    background-color: white;
+    border: 1.5px solid #B7B3B3;
+    
+    color: black;
+    font-weight: bold;
+}
+
+nav ul button.second-btn{
+    color: white;
+    background-color: #6C63FF;
+    font-weight: bold;
+    border: 1.5px solid #B7B3B3;
+} 
+
+
 
